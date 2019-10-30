@@ -1,0 +1,7 @@
+<%= render 'navbar' %>
+<h1><%= "All our flats (#{@flats.length})" %></h1>
+
+<% @flats.each do |flat| %>
+<li><%= flat.name %></li>
+<% end %>
+
